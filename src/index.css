@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4d467;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lang-card:hover {
+  transition: all 0.6s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.lang-logo {
+  transition: transform 0.5s;
+}
+.lang-card:hover .lang-logo {
+  transform: scale(1.3);
+}
